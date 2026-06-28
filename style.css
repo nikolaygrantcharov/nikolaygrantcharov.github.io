@@ -82,7 +82,7 @@ a:focus {
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 230px;
+  grid-template-columns: minmax(0, 1fr) 280px;
   gap: 55px;
   align-items: start;
 }
