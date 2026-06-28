@@ -10,7 +10,7 @@
 
   <meta
     name="description"
-    content="Seminars and conferences organized or attended by Nikolay Grantcharov."
+    content="Seminars and conferences organized by Nikolay Grantcharov."
   >
 
   <title>Seminars and Conferences | Nikolay Grantcharov</title>
@@ -24,10 +24,6 @@
       font-size: 2.25rem;
       font-weight: normal;
       line-height: 1.2;
-    }
-
-    .event-list li {
-      margin-bottom: 14px;
     }
   </style>
 </head>
@@ -59,32 +55,26 @@
       <h2>Bun<sub>G</sub> Seminar</h2>
 
       <p>
-     <p>
-  In January 2023, I co-founded the University of Chicago
-  Bun<sub>G</sub> Seminar with Aaron Slipper and subsequently organized it
-  for seven consecutive quarters. The seminar was devoted to studying the geometry
-  and representation theory of the moduli stack of principal bundles on a
-  curve. It provided background for UChicago's Geometric
-  Langlands Seminar and featured talks by many experts in the field, including Sasha Beilinson, Ngô Bảo Châu, 
-Victor Ginzburg,
-
-  Nick Rozenblyum, and Zhiwei Yun.
-</p>
+        In January 2023, I co-founded the University of Chicago
+        Bun<sub>G</sub> Seminar with Aaron Slipper and subsequently
+        organized it for seven consecutive quarters. The seminar was
+        devoted to the study of the geometry and representation theory
+        of the moduli stack of principal bundles on a curve. It provided
+        background for UChicago's Geometric Langlands Seminar and featured
+        talks by many experts in the field, including Alexander Beilinson,
+        Ngô Bảo Châu, Victor Ginzburg, Nick Rozenblyum, and Zhiwei Yun.
       </p>
-      <p> <a
 
-      href="https://math.uchicago.edu/bundles/"
+      <p>
+        <a
+          href="https://math.uchicago.edu/bundles/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit the Bun<sub>G</sub> Seminar website
+        </a>
+      </p>
 
-      target="_blank"
-
-      rel="noopener noreferrer"
-
-    >
-
-      Visit the Bun<sub>G</sub> Seminar website
-
-    </a>
-       </p> 
       <p>
         <a
           href="https://www.youtube.com/@bungseminar"
@@ -95,23 +85,34 @@ Victor Ginzburg,
         </a>
       </p>
     </section>
-<p>
-  During Fall 2025 -- present, I am co-organizing the University of Georgia Algebra Seminar.
-</p>
 
-<p>
-  During October 10-11, 2026, I am co-organizing the
-  <a
-    href="https://www.ams.org/meetings/sectional/2339_program_ss30.html#title"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    AMS Special Session on Geometric and Homological Methods in Representation Theory
-  </a>
-  at the AMS Southeastern Sectional Meeting at Kennesaw State University.
-</p>
+    <section>
+      <h2>University of Georgia Algebra Seminar</h2>
 
-   
+      <p>
+        Since Fall 2025, I have co-organized the University of Georgia
+        Algebra Seminar.
+      </p>
+    </section>
+
+    <section>
+      <h2>AMS Special Session</h2>
+
+      <p>
+        On October 10–11, 2026, I will co-organize the
+        <a
+          href="https://www.ams.org/meetings/sectional/2339_program_ss30.html#title"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          AMS Special Session on Geometric and Homological Methods in
+          Representation Theory
+        </a>
+        at the AMS Southeastern Sectional Meeting at Kennesaw State University.
+      </p>
+    </section>
+  </main>
+
   <footer class="site-footer">
     <p>© 2026 Nikolay Grantcharov</p>
   </footer>
