@@ -217,3 +217,15 @@ h3 {
     font-size: 2rem;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --text: #e6e6e6;
+    --muted: #b0b0b0;
+    --link: #91c4f2;
+    --border: #414141;
+    --background: #181818;
+    --subtle-background: #242424;
+  }
+}
