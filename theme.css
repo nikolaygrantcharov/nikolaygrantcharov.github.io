@@ -1,0 +1,130 @@
+/* Explicit choices take priority over the automatic dark-mode rules. */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --text: #222222;
+  --muted: #666666;
+  --link: #315f86;
+  --border: #d8d8d8;
+  --background: #ffffff;
+  --subtle-background: #f7f7f7;
+  --coffee-dark: #2f211a;
+  --cream: #f7f2eb;
+  --cream-dark: #eadfd2;
+  --white: #ffffff;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --text: #e6e6e6;
+  --muted: #b0b0b0;
+  --link: #91c4f2;
+  --border: #414141;
+  --background: #181818;
+  --subtle-background: #242424;
+  --coffee-dark: #ead7c7;
+  --cream: #29231f;
+  --cream-dark: #51443b;
+  --white: #211d1a;
+}
+
+/* The espresso page also has three colors outside its shared variables. */
+:root[data-theme="dark"] .espresso-intro p,
+:root[data-theme="dark"] .recipe span {
+  color: var(--muted);
+}
+
+:root[data-theme="dark"] .recipe div {
+  background: var(--background);
+}
+
+:root[data-theme="light"] .espresso-intro p {
+  color: #584940;
+}
+
+:root[data-theme="light"] .recipe span {
+  color: #6d5d52;
+}
+
+:root[data-theme="light"] .recipe div {
+  background: #ffffff;
+}
+
+.header-inner.has-theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.has-theme-toggle .site-name {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.has-theme-toggle .site-navigation {
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  flex: 0 0 44px;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  color: var(--muted);
+  background: transparent;
+  font: inherit;
+  line-height: 1;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.theme-toggle svg {
+  display: block;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+}
+
+.theme-toggle:hover {
+  color: var(--text);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+
+@media (max-width: 900px) {
+  .header-inner.has-theme-toggle {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 44px;
+    column-gap: 14px;
+    row-gap: 12px;
+  }
+
+  .has-theme-toggle .site-name {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .has-theme-toggle .site-navigation {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-content: flex-start;
+    margin-top: 0;
+  }
+
+  .has-theme-toggle .theme-toggle {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+  }
+}
